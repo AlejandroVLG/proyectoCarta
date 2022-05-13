@@ -1,0 +1,34 @@
+body {
+    margin: 0em;
+    padding: 0em;
+    background-color: aqua;
+}
+/* Contenedor principal */
+
+.container-fluid {
+    height: 100vh;
+    background: white;
+}
+.row {
+    height: 200vh;
+    background: blue;
+}
+.coliz {
+    background-color: aquamarine;
+    
+}
+.coldrch {
+    background-color: lightgreen;
+}
+.nav {
+    background: linear-gradient(rgb(8, 143, 226), rgb(6, 102, 181), rgb(4, 54, 161));
+    border-radius: 0.3em;
+    
+}
+.btn-light {
+    width: 20em;
+    background: radial-gradient(rgb(57, 139, 199), rgb(24, 79, 103));
+    box-shadow: rgb(0, 0, 0);
+    border: 0.05em solid black;
+}
+
