@@ -41,6 +41,7 @@ body {
 .facebook {
     background-color: white;
     height: 2em;
+    animation: alternate;
 }
 .instagram {
     height: 2em;
@@ -71,10 +72,17 @@ body {
     display: flex;
 }
 .colPie {
-    background: lightgreen;
+    background: linear-gradient(rgb(46, 46, 46), black, rgb(32, 32, 32));
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.iconoCuadradoAPTC {
+    height: 2.5em;
+    border: 0.1em solid black;
+}
+.btn-dark {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
 
