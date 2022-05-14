@@ -21,18 +21,29 @@ body {
     justify-content: center;
 }
 .iconosRedesSociales {
-    background-color: rgb(9, 81, 57);
+    background: linear-gradient(rgb(46, 46, 46), black, rgb(32, 32, 32));
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.1em solid white;
+}
+.nombreRestaurante {
+    background: linear-gradient(rgb(46, 46, 46), black, rgb(32, 32, 32));
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.nombreRestaurante {
-    background-color: rgb(15, 164, 114);
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.iconoAPTC {
+    height: 3em;
+}
+.facebook {
+    background-color: white;
+    height: 2em;
+}
+.instagram {
+    height: 2em;
 }
 
 /* CUERPO PRINCIPAL*/
@@ -43,12 +54,11 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 #carouselExampleIndicators {
     position: fixed;
     height: 25em;
     width: 50em;
-    margin-bottom: 25em;
+    margin-bottom: 20em;
 }
 .d-block {
     border: 0.05em solid black;
