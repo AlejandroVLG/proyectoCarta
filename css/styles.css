@@ -15,7 +15,7 @@ body {
 
 .cabeceroPortada {
     background-color: aquamarine;
-    height: 10%;
+    height: 9%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,9 +37,22 @@ body {
 
 /* CUERPO PRINCIPAL*/
 
-.imagenPortada {
-    height: 84%;
-    background: lightpink;
+.cajaCentralPortada {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselExampleIndicators {
+    position: fixed;
+    height: 25em;
+    width: 50em;
+    margin-bottom: 25em;
+}
+.d-block {
+    border: 0.05em solid black;
+    border-radius: 0.2em;
 }
 
 /* PIE DE PAGINA */
@@ -48,7 +61,6 @@ body {
     height: 6%;
     display: flex;
 }
-
 .colPie {
     background: lightgreen;
     display: flex;
