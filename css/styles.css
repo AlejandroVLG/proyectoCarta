@@ -1,14 +1,14 @@
 body {
     margin: 0em;
     padding: 0em;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
 }
 
 /* Contenedor principal */
 
 .container-fluid {
     height: 100vh;
-    background: white;
+    background: black;
 }
 
 /* Cabecero portada */
@@ -51,18 +51,8 @@ body {
 .cajaCentralPortada {
     background: black;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-#carouselExampleIndicators {
-    position: fixed;
-    height: 25em;
-    width: 50em;
-    margin-bottom: 20em;
-}
-.d-block {
-    border: 0.05em solid black;
-    border-radius: 0.2em;
+    align-items: center;
 }
 
 /* PIE DE PAGINA */
