@@ -6,7 +6,7 @@
 <br>
 <p align="center">Página principal</p>
 <p align="center">
-<img src="img/readmehome.png"></p>
+<img src="img/readmeHome.png"></p>
 
 <p align="center">Sección de la carta </p>
 <p align="center">
