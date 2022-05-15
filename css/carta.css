@@ -64,7 +64,7 @@ body {
     margin-bottom: 1.5em;
 }
 .menu:hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
     transition: transform 0.8s;
 }
 /* PIE DE PAGINA */
