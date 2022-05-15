@@ -7,7 +7,7 @@ body {
 /* Contenedor principal */
 
 .container-fluid {
-    height: 100vh;
+    height: 100%;
     background: black;
 }
 
@@ -23,7 +23,6 @@ body {
 }
 .enlacesCarta {
     background: linear-gradient(rgb(46, 46, 46), black, rgb(32, 32, 32));
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,9 +39,9 @@ body {
 /* CUERPO PRINCIPAL*/
 
 .cajaCentralPortada {
-    background-image: url(/img/FondoPrincipal.jpeg);
+    background-image: url(/img/fondoCartabueno.jpeg);
     background-size: 100%;
-    height: 40em;
+    height: 87%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,11 +57,15 @@ body {
     justify-content: center;
 }
 .menu { 
-    width: 80%;
     border: 0.05em solid black;
     padding: 0em;
     border-radius: 0.2em;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+.menu:hover {
+    transform: scale(1.2);
+    transition: transform 0.8s;
 }
 /* PIE DE PAGINA */
 
