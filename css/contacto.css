@@ -13,7 +13,7 @@ body {
 /* CUERPO PRINCIPAL*/
 
 .cajaCentralPortada {
-    background-image: url(/img/imagenContacto.jpeg);
+    background-image: url(../img/imagenContacto.jpeg);
     background-size: 100%;
     height: 94%;
     display: flex;
