@@ -1,0 +1,22 @@
+{
+  "name": "carta-restaurante",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"> <img src=\"img/geeks.png\"></p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexdck/proyectoCarta.git"
+  },
+  "author": "Alejandro Laguia Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexdck/proyectoCarta/issues"
+  },
+  "homepage": "https://github.com/Alexdck/proyectoCarta#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
